@@ -1,0 +1,531 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0FFF0;
+}
+
+.logo-container {
+    display: flex; 
+    width: 100px;
+    height: 50px;       
+}
+
+.menu-container {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    padding: 15px;
+}
+
+.item a {
+    text-decoration: none; 
+    color: #000000;
+}
+
+.btn {
+    color: white;
+    background-color: #21B573;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 10px; 
+    margin-top: -8px;
+}
+
+.button {
+    width: 120px;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #21B573;
+}
+
+
+.home-page-header {
+    background-color: #F0FFF0;
+    height: 526px;
+}
+
+.home-page-first-content {
+    width: 50%;
+    float: left;
+    padding-top: 25px;
+}
+
+.first-part-left {
+    text-align: justify;
+    padding-left: 100px;
+}
+
+.p-text {
+    color: red;
+}
+
+.hero-title {
+    font-size: 48px;
+}
+.text {
+    color: #21B573;
+}
+
+.first-img {
+    display: block;
+    margin: auto;
+    width: 500px;
+    padding: 25px;  
+}
+
+.home-page-second-content {
+    width: 25%;
+    float: left;
+    padding-top: 15px;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    width: 66px;
+    padding: 50px;
+}
+
+.image-1 {
+    background-color: #F5FFFA;
+}
+
+.image-2 {
+    background-color: #FFFFFF;
+}
+
+.image-3 {
+    background-color: #F5FFFA;
+}
+
+.image-4 {
+    background-color: #F5FFFA;
+}
+
+.caption {
+    text-align: center;
+}
+
+.title-text {
+    text-align: center;
+}
+
+.home-page-third-content {
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+}
+
+.home-page-fourth-content {
+    width: 33.33;
+    float: left;
+    padding-top: 15px;
+}
+
+.rec6-img {
+    width: 325px;
+    height: 234px;
+    padding-left: 150px;
+}
+
+.rec13-img {
+    width: 325px;
+    height: 234px;
+}
+
+.rec15-img {
+    width: 325px;
+    height: 234px;
+}
+
+.button-courses1 {
+    width: 120px;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #21B573;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.button-courses2 {
+    width: 120px;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #21B573;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.button-courses3 {
+    width: 120px;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #21B573;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.caption1 {
+    text-align: justify;
+    margin-left: 160px;
+    padding-top: 10px;
+}
+
+.caption2 {
+    text-align: justify;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.caption3 {
+    text-align: justify;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.course-info1 {
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.course-info2 {
+    padding-top: 10px;
+    text-align: center;
+    margin-left: -25px;
+}
+
+.course-info3 {
+    padding-top: 10px;
+    text-align: center;
+    margin-left: -25px;
+}
+
+.home-page-fifth-content {
+    width: 100%;
+    float: left;
+    padding-top: 28px;
+}
+
+.button-all-courses {
+    width: 120px;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #21B573;
+    margin-left: 50%;
+    transform: translateX(-50%);   
+}
+
+.home-page-sixth-content {
+    width: 100%;
+    float: left;
+    padding-top: 54px; 
+    text-align: center;
+}
+
+.testimonial-text {
+     font-size: 36px; 
+}
+
+.ellipse5-img {
+    width: 120px;
+    float: left;
+    margin-left: 353px;
+}
+
+.some-text {
+    text-align: justify;
+    padding-left: 625px;
+    padding-top: 20px;
+}
+
+.footer {
+    width: 100%; /* 95.5% of width for adjusting all the elements */
+    float: left;
+    margin-top: 70px;
+    padding: 15px;
+    background-color: #282531;
+}
+
+.footer-logo {
+    width: 125px;
+    margin-left: 80px;
+}
+
+.logo-text {
+    color: #FFFFFF;
+    margin-left: 120px;
+    padding-top: 15px;
+}
+
+.course-name {
+    color: #FFFFFF;
+    margin-left: 600px;
+    margin-top: -125px;
+}
+
+.terms-name {
+    color: #FFFFFF;
+    margin-left: 900px;
+    margin-top: -125px;
+}
+
+.usefullink-name {
+    color: #FFFFFF;
+    margin-left: 1200px;
+    margin-top: -125px;
+}
+
+.copyright-text {
+    padding-top: 50px;
+    color: #CDCDCD;
+    text-align: center;
+}
+
+/*Here, Course page specific design starts */
+.course-page-header {
+    background-color: #FFFFFF;
+    height: 80px;
+}
+
+.course-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.course-page-main-container {
+    height: 100vh;
+}
+
+.course-title {
+    margin-left: 250px;
+    font-size: 36px;
+    color: #413960;
+}
+
+  .course-img {
+    width: 100%;
+  }
+  
+  .layout-grid{
+    grid-gap: 20px;
+  }
+  .page-left {
+    grid-column: 1 / 8;
+    margin-left: 250px;
+  }
+  
+  .page-right {
+    grid-column: 8 / -1;
+    text-align: right;
+    margin-right: 250px;
+  }
+  
+  .card-grid {
+    grid-gap: 5px;
+  }
+
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #8888;
+    border-radius: 0.5rem;
+  }
+  
+  .card img {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover img {
+    transform: scale(1.2);
+  }
+  
+  .card-btn {
+    border: none;
+    border-radius: 3rem;
+    background-color: #21B573;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    transition: background 2s, transform 0.3s;
+  }
+  
+  .card-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-btn:active {
+    transform: translateY(-5px) scale(1);
+  }
+  
+  .grid-item {
+    grid-column: auto / span 6;
+  }
+  
+  .cart-item{
+    border: 1px solid #8888;
+    border-radius: 0.5rem;
+  }
+  
+  .cart-img{
+    max-width: 100px;
+  }
+  
+  .cart-figure{
+    display: initial;
+    text-align: center;
+  }
+  
+  .cart-total-btn{
+    background-color: #21B573; 
+    border-radius: 0 0 0.5rem 0.5rem;
+    color: white;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
+ 
+  .w-100{
+    width: 100%;
+  }
+  
+  .w-50{
+    width: 50%;
+  }
+  
+  .flex-between {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .p-0{
+    padding: 0;
+  }
+  
+  .m-0{
+    margin: 0;
+  }
+  
+  .pb-0{
+    padding-bottom: 0;
+  }
+  
+  .mb-0{
+    margin-bottom: 0;
+  }
+  
+  .pe-1{
+    padding-inline-end: 0.75rem;
+  }
+
+.course-page-footer {
+    width: 100%; 
+    float: left;
+    margin-top: 750px; 
+    padding: 15px;
+    background-color: #282531;
+}
+
+.footer {
+  width: 100%;
+  float: left;
+  margin-top: 70px;
+  padding: 15px;
+  background-color: #282531;
+}
+
+.footer-logo {
+  width: 125px;
+  margin-left: 80px;
+}
+
+.logo-text {
+  color: #FFFFFF;
+  margin-left: 120px;
+  padding-top: 15px;
+}
+
+.course-name,
+.terms-name,
+.usefullink-name {
+  color: #FFFFFF;
+  margin-top: -125px;
+}
+
+.copyright-text {
+  padding-top: 50px;
+  color: #CDCDCD;
+  text-align: center;
+}
+
+/* Media query*/
+@media only screen and (max-width: 480px) {
+  .course-page-main-container {
+      height: auto;
+  }
+
+  .course-title {
+      margin-left: 15px;
+  }
+
+  .page-left {
+      margin-left: 15px;
+  }
+
+  .page-right {
+      margin-right: 15px;
+  }
+
+  .page-left {
+      grid-column: 1 / -1; /* Span the entire width on small screens */
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .grid-item {
+      grid-column: auto / span 12; /* Span the full width on small screens */
+  }
+
+  .course-page-footer {
+      margin-top: 15px; /* Adjust the margin-top to prevent overlap */
+  }
+}
